@@ -838,7 +838,7 @@ footer :is(.foot2 a, .foot3 a, .foot4 a, .foot5 a):hover{
 
 @media only screen and (max-width: 1657px){
 	main{
-	margin-left: 150px;
+	margin-left: 300px;
 	}
 
 	.firstpage{
