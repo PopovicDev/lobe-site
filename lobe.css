@@ -33,7 +33,7 @@ body{
 }
 
 main{
-	margin-left: 300px;
+	margin-left: 400px;
 }
 
 header{
@@ -225,6 +225,8 @@ header button:hover{
 	border-radius: 50px;
 	box-shadow: 0px 15px 100px grey;
 	margin-bottom: 100px;
+	width: 100%;
+	height: auto;
 }
 
 .thirdpage{
@@ -757,7 +759,8 @@ header button:hover{
 }
 
 .line{
-	margin:0 200px;
+	width: 100%;
+	margin:0;
 	margin-bottom:50px;
 }
 
@@ -837,10 +840,6 @@ footer :is(.foot2 a, .foot3 a, .foot4 a, .foot5 a):hover{
 }
 
 @media only screen and (max-width: 1657px){
-	main{
-	margin-left: 300px;
-	}
-
 	.firstpage{
 	display: flex;
 	flex-direction: column;
@@ -877,6 +876,8 @@ footer :is(.foot2 a, .foot3 a, .foot4 a, .foot5 a):hover{
 	border-radius: 50px;
 	box-shadow: 0px 15px 100px grey;
 	margin-bottom: 100px;
+	width: 100%;
+	height: auto;
 	}
 
 	.thirdpage{
@@ -901,7 +902,7 @@ footer :is(.foot2 a, .foot3 a, .foot4 a, .foot5 a):hover{
 	box-shadow: 0px 15px 100px grey;
 	margin-bottom: 100px;
 	height: auto;
-	width: 75%;
+	width: 100%;
 	}
 
 	.secondpage{
@@ -1443,8 +1444,9 @@ footer :is(.foot2 a, .foot3 a, .foot4 a, .foot5 a):hover{
 }
 
 .line{
-	margin:0 100px;
+	margin: 0;
 	margin-bottom:50px;
+	width: 100%;
 }
 }
 
@@ -1846,7 +1848,7 @@ footer :is(.foot2 a, .foot3 a, .foot4 a, .foot5 a):hover{
 
 .line{
 	width: 100%;
-	margin: 0;
+	margin:0;
 }
 }
 
